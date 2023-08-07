@@ -146,5 +146,4 @@ if __name__ == '__main__':
     parts = main_url.split('/')[4:-1]  # [4:-1] to exclude 'https:', '', 'www.ss.lv', 'lv', and the last empty part
     filename = "_".join(parts) + ".csv"
     print(f"Total number of listings scraped: {len(all_listings_data)}")
-    save_to_csv(all_listings_data, filename)
-
+    save_to_csv(all_listings_data, 'data/' + filename)
