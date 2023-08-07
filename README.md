@@ -52,4 +52,4 @@ This web scraper is designed to extract data from listings pages on SS.lv. Navig
 MIT
 ```
 
-Please remember to replace `https://github.com/edErikson/sslv-webscraper.git` with the actual URL of your GitHub repository, and update any other information as needed.
+ `https://github.com/edErikson/sslv-webscraper.git`
