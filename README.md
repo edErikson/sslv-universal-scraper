@@ -14,7 +14,7 @@ This project is a web scraper built in Python that scrapes data from the SS.lv w
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/sslv-webscraper.git
+   git clone [https://github.com/your-username/sslv-webscraper.git](https://github.com/edErikson/sslv-universal-scraper)
    ```
 2. Navigate into the project directory:
    ```bash
@@ -43,4 +43,4 @@ This web scraper is designed to extract data from listings pages on SS.lv. Navig
 MIT
 ```
 
-'https://github.com/edErikson/sslv-universal-scraper'
+https://github.com/edErikson/sslv-universal-scraper
