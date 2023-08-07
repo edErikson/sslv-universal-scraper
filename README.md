@@ -1,4 +1,3 @@
-```markdown
 # SS.lv Web Scraper
 
 ## Description
