@@ -1,11 +1,3 @@
-# Project Description
-
-This project is a web scraper designed to scrape data from the SS.lv website, a popular classifieds site. This scraper is able to collect information on various types of listings, including computers, cars, furniture, or real estate, based on the URL provided. The scraped data is stored as CSV files for convenient processing and analysis.
-
-The scraper uses Python's `requests` library to fetch web pages and `BeautifulSoup` to parse the HTML and extract the desired data. It includes features to navigate to and scrape data from multiple pages of listings. Additionally, it includes a function to save the scraped data to a CSV file, with the filename generated based on the category of the listings being scraped.
-
-# Readme File for GitHub
-
 ```markdown
 # SS.lv Web Scraper
 
