@@ -5,6 +5,15 @@ import time
 
 
 def fetch_details(url):
+    """
+    Fetch detailed information about a listing from its individual page.
+
+    Parameters:
+    url (str): The URL of the listing's page.
+
+    Returns:
+    dict: A dictionary containing key-value pairs of the listing's details.
+    """
     response = session.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -27,6 +36,15 @@ def fetch_details(url):
 
 
 def fetch_listings(url):
+    """
+    Fetch all listings from a page and their detailed information.
+
+    Parameters:
+    url (str): The URL of the page containing the listings.
+
+    Returns:
+    list: A list of dictionaries, each containing detailed information about a listing.
+    """
     response = session.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -46,6 +64,19 @@ def fetch_listings(url):
 
 
 def fetch_all_listings(base_url):
+    """
+    Fetch all listings from a set of pages starting from a base URL.
+
+    This function fetches listings from the provided URL and continues
+    to fetch from subsequent pages until there are no more pages of listings.
+    It uses a gentle sleep time to prevent overloading the server with requests.
+
+    Parameters:
+    base_url (str): The URL of the first page of listings.
+
+    Returns:
+    list: A list of dictionaries, each containing detailed information about a listing.
+    """
     # Initial URL
     url = base_url
     prev_url = None  # To keep track of the previous page URL
