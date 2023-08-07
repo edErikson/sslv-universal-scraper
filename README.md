@@ -1,3 +1,12 @@
+# Project Description
+
+This project is a web scraper designed to scrape data from the SS.lv website, a popular classifieds site. This scraper is able to collect information on various types of listings, including computers, cars, furniture, or real estate, based on the URL provided. The scraped data is stored as CSV files for convenient processing and analysis.
+
+The scraper uses Python's `requests` library to fetch web pages and `BeautifulSoup` to parse the HTML and extract the desired data. It includes features to navigate to and scrape data from multiple pages of listings. Additionally, it includes a function to save the scraped data to a CSV file, with the filename generated based on the category of the listings being scraped.
+
+# Readme File for GitHub
+
+```markdown
 # SS.lv Web Scraper
 
 ## Description
@@ -15,3 +24,28 @@ This project is a web scraper built in Python that scrapes data from the SS.lv w
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/sslv-webscraper.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd sslv-webscraper
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the script with a URL for the category you want to scrape:
+   ```bash
+   python main.py --url https://www.ss.lv/lv/electronics/computers/pc/
+   ```
+   This will scrape computer listings and save them to a file named `electronics_computers_pc.csv`.
+
+## Note
+
+This scraper is for educational purposes only. Before using it, make sure you understand and comply with the website's terms of service, as well as any applicable laws and regulations.
+
+## License
+
+MIT
+```
+
+Please remember to replace `https://github.com/edErikson/sslv-webscraper.git` with the actual URL of your GitHub repository, and update any other information as needed.
