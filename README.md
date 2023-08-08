@@ -51,7 +51,7 @@ Generated visualization outputs are located in the output directory.
 This scraper is for educational purposes only. Before using it, make sure you understand and comply with the website's terms of service, as well as any applicable laws and regulations.
 This web scraper is designed to extract data from listings pages on SS.lv. Navigate to the desired category on SS.lv until you reach a page with a list of items (like the example below), then copy and provide the URL to the scraper.
 
-![Example of listings page on SS.lv](https://github.com/edErikson/sslv-universal-scraper/assets/38958077/e811cb94-d703-4dd4-bd71-994be4ade670)
+![Example of listings page on SS.lv](data/search%20example.bmp)
 
 
 ## License
