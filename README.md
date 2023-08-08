@@ -1,9 +1,14 @@
-# SS.lv Web Scraper
+# SS.lv Web Scraper and Data Analysis
 
 ## Description
 
-This project is a web scraper built in Python that scrapes data from the SS.lv website, a popular classifieds site. The scraper can fetch details from multiple categories of listings like computers, cars, furniture, real estate, etc. based on the URL provided. The scraped data is then saved in CSV format for further processing and analysis.
+This project is a comprehensive toolset beginning with a web scraper built in Python that scrapes data from the SS.lv website, a popular classifieds site in Latvia. Post extraction, the data undergoes analysis and visualization to glean insights, particularly related to real estate listings.
 
+Web Scraper
+The scraper can fetch details from multiple categories of listings like computers, cars, furniture, real estate, etc. based on the URL provided. The scraped data is then saved in CSV format.
+
+Data Analysis
+The extracted real estate data is further analyzed using a Jupyter Notebook to understand trends and insights in the listings. Visualizations including maps are generated to better represent the data distribution across different districts.
 ## Dependencies
 
 - Python 3.8+
@@ -29,6 +34,17 @@ This project is a web scraper built in Python that scrapes data from the SS.lv w
    python main.py --url https://www.ss.lv/lv/electronics/computers/pc/
    ```
    This will scrape computer listings and save them to a file named `electronics_computers_pc.csv`.
+
+## Data Analysis
+Navigate to the notebooks directory.
+
+Open the Jupyter Notebook analysis.ipynb.
+
+Execute the notebook cells for analysis and visualizations.
+
+GeoJSON data, utilized for mapping, is in the data directory as riga_districts_final.geojson.
+
+Generated visualization outputs are located in the output directory.
 
 ## Note
 

@@ -139,8 +139,8 @@ def save_to_csv(all_property_data, filename):
 if __name__ == '__main__':
     session = requests.Session()
     # main_url = 'https://www.ss.lv/lv/electronics/computers/pc/'
-    main_url = 'https://www.ss.lv/lv/real-estate/flats/riga/all/sell/'
     # main_url = 'https://www.ss.lv/lv/home-stuff/furniture-interior/sofas/'
+    main_url = 'https://www.ss.lv/lv/real-estate/flats/riga/all/sell/'
     all_listings_data = fetch_all_listings(main_url)
     # Extract parts of the URL and create filename
     parts = main_url.split('/')[4:-1]  # [4:-1] to exclude 'https:', '', 'www.ss.lv', 'lv', and the last empty part
