@@ -55,9 +55,6 @@ This web scraper is designed to extract data from listings pages on SS.lv. Navig
 ⚠️ Disclaimer:
 The dataset included in this repository may be outdated or might not represent the current state of the market. To ensure up-to-date and accurate insights, it's recommended to launch the scraper and fetch the latest data before conducting any analysis.
 
-## License
-
-MIT
 ```
 
 https://github.com/edErikson/sslv-universal-scraper
