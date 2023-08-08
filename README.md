@@ -36,15 +36,14 @@ The extracted real estate data is further analyzed using a Jupyter Notebook to u
    This will scrape computer listings and save them to a file named `electronics_computers_pc.csv`.
 
 ## Data Analysis
-Navigate to the notebooks directory.
 
-Open the Jupyter Notebook analysis.ipynb.
+1. For local analysis, navigate to the `notebooks` directory and open the Jupyter Notebook `analysis.ipynb`. Execute the notebook cells for analysis and visualizations.
+2. If you'd prefer to view the analysis online, you can see it on [nbviewer](https://nbviewer.org/github/edErikson/sslv-universal-scraper/blob/master/notebooks/sslv_realestate_data_analysis.ipynb).
 
-Execute the notebook cells for analysis and visualizations.
+**Resources**:
+- GeoJSON data, utilized for mapping, is in the `data` directory as `riga_districts.geojson`.
+- Generated visualization outputs are located in the `output` directory.
 
-GeoJSON data, utilized for mapping, is in the data directory as riga_districts_final.geojson.
-
-Generated visualization outputs are located in the output directory.
 
 ## Note
 
